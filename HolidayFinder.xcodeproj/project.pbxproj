@@ -13,6 +13,8 @@
 		9769654723ABBDC70068FF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9769654523ABBDC70068FF95 /* Main.storyboard */; };
 		9769654923ABBDC90068FF95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9769654823ABBDC90068FF95 /* Assets.xcassets */; };
 		9769654C23ABBDC90068FF95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9769654A23ABBDC90068FF95 /* LaunchScreen.storyboard */; };
+		9769655423ABBF4A0068FF95 /* HolidayDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769655323ABBF4A0068FF95 /* HolidayDataModel.swift */; };
+		9769656023AC06570068FF95 /* HolidayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769655F23AC06570068FF95 /* HolidayService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9769654823ABBDC90068FF95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9769654B23ABBDC90068FF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9769654D23ABBDC90068FF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9769655323ABBF4A0068FF95 /* HolidayDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayDataModel.swift; sourceTree = "<group>"; };
+		9769655F23AC06570068FF95 /* HolidayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				9769654823ABBDC90068FF95 /* Assets.xcassets */,
 				9769654A23ABBDC90068FF95 /* LaunchScreen.storyboard */,
 				9769654D23ABBDC90068FF95 /* Info.plist */,
+				9769655323ABBF4A0068FF95 /* HolidayDataModel.swift */,
+				9769655F23AC06570068FF95 /* HolidayService.swift */,
 			);
 			path = HolidayFinder;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				9769654423ABBDC70068FF95 /* ViewController.swift in Sources */,
 				9769654023ABBDC70068FF95 /* AppDelegate.swift in Sources */,
+				9769656023AC06570068FF95 /* HolidayService.swift in Sources */,
+				9769655423ABBF4A0068FF95 /* HolidayDataModel.swift in Sources */,
 				9769654223ABBDC70068FF95 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
