@@ -15,6 +15,7 @@
 		9769654C23ABBDC90068FF95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9769654A23ABBDC90068FF95 /* LaunchScreen.storyboard */; };
 		9769655423ABBF4A0068FF95 /* HolidayDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769655323ABBF4A0068FF95 /* HolidayDataModel.swift */; };
 		9769656023AC06570068FF95 /* HolidayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769655F23AC06570068FF95 /* HolidayService.swift */; };
+		9769656223AC193E0068FF95 /* HolidayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769656123AC193E0068FF95 /* HolidayCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9769654D23ABBDC90068FF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9769655323ABBF4A0068FF95 /* HolidayDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayDataModel.swift; sourceTree = "<group>"; };
 		9769655F23AC06570068FF95 /* HolidayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayService.swift; sourceTree = "<group>"; };
+		9769656123AC193E0068FF95 /* HolidayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				9769654D23ABBDC90068FF95 /* Info.plist */,
 				9769655323ABBF4A0068FF95 /* HolidayDataModel.swift */,
 				9769655F23AC06570068FF95 /* HolidayService.swift */,
+				9769656123AC193E0068FF95 /* HolidayCell.swift */,
 			);
 			path = HolidayFinder;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			files = (
 				9769654423ABBDC70068FF95 /* ViewController.swift in Sources */,
 				9769654023ABBDC70068FF95 /* AppDelegate.swift in Sources */,
+				9769656223AC193E0068FF95 /* HolidayCell.swift in Sources */,
 				9769656023AC06570068FF95 /* HolidayService.swift in Sources */,
 				9769655423ABBF4A0068FF95 /* HolidayDataModel.swift in Sources */,
 				9769654223ABBDC70068FF95 /* SceneDelegate.swift in Sources */,

@@ -42,9 +42,9 @@ struct HolidayService {
             }
             do{
                 let decodeData = JSONDecoder()
-                let holidayResponse = try? decodeData.decode(HolidayResponse.self, from: jsonData)
-                let holidayDetails = holidayResponse?.response.holidays
-                completion(.success(holidayDetails!))
+                let holidayResponse = try decodeData.decode(HolidayResponse.self, from: jsonData)
+                let holidayDetails = holidayResponse.response.holidays
+                completion(.success(holidayDetails))
             }catch{
                 completion(.failure(HolidayError.CannotProceedWithData))
             }
